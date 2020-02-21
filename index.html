@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personagens Star Wars </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/script.js"></script>
+  <script src="css/style.css"></script>
+
+
+
+ 
+</head>
+<body>
+
+  <div class=" col-lg-12 w3-display-middle text-center">
+
+
+    <input name="Pesquisar"  class="text-center" placeholder="Digite o nome do personagem" type="text" /> <br>
+<br>
+
+
+<div >
+
+    <h2 class="personagens">
+
+    </h2>
+
+
+</div>
+
+
+<br><br>
+<button name="previousPage" class="buttonNext"><b>Pagina Anterior</b></button>
+<button name="nextPage" class="buttonNext"><b>Proxima pagina</b></button>
+<div class='page'></div>
+
+</div>
+<!-- modal para personagens -->
+<div class="  modal col-lg-12 text-center" id="modal" tabindex="-1" role="dialog" >
+
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><b>Detalhes:</b></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body ">
+            <p class="nome"></p>
+            <p class="altura"></p>
+            <p class="peso"></p>
+            <p class="corCabelo"></p>
+            <p class="corPele"></p>
+            <p class="corOlho"></p>
+            <p class="anoNascimento"></p>
+            <p class="genero"></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

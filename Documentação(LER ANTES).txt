@@ -1,0 +1,29 @@
+﻿Para acessar o arquivo basta abrir o "index.hmtl" a programação javaScript está na pasta js no arquivo "script.js"
+
+Como primeiro passo antes do inicio do desenvolvimento estudei os requisitos propostos pelo exercício.
+
+Em seguida adicionei um jquery cdn Que permite fornecer conteúdo Web de uma forma mais rápida a um grande número de utilizadores.
+
+Para importar os dados da API para minha alicação eu usei o Ajax.
+
+Na parte da importação do nome, altura, peso, cor do cabelo, cor da pele, cor do olho, ano de nascimento e gênero por estar na raiz da url não
+tive grandes problemas. Porém na importação dos filmes e especies acabei tendo.
+
+Como mexer:
+
+Para ver os detalhes de cada personagem basta clicar em seu nome.
+
+Achei que seria mais interessante invés de colocar todos os dados em uma parte só do programa os ordenar em páginas. Por isso criei dois botões,
+para avançar e voltar.
+
+O programa também conta com um input onde o usuário pode pesquisar o nome do personagem desejado.
+
+Tive dificuldade em resolver alguns problemas e precisei consultar bastante coisas no stackoverflow, w3s e github.
+
+
+Links:
+
+Stackoverflow: https://pt.stackoverflow.com/
+github: https://github.com/
+w3schools: https://www.w3schools.com/:
+
